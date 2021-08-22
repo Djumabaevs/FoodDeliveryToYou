@@ -15,6 +15,8 @@
 		34F94FD026D2C539006F2D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F94FCE26D2C539006F2D6C /* LaunchScreen.storyboard */; };
 		34F94FDB26D2C539006F2D6C /* FoodDeliveryToYouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FDA26D2C539006F2D6C /* FoodDeliveryToYouTests.swift */; };
 		34F94FE626D2C539006F2D6C /* FoodDeliveryToYouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FE526D2C539006F2D6C /* FoodDeliveryToYouUITests.swift */; };
+		34F94FF626D2C619006F2D6C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FF526D2C619006F2D6C /* Card.swift */; };
+		34F94FF826D2C636006F2D6C /* OnBoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FF726D2C636006F2D6C /* OnBoardingPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		34F94FE126D2C539006F2D6C /* FoodDeliveryToYouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDeliveryToYouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F94FE526D2C539006F2D6C /* FoodDeliveryToYouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryToYouUITests.swift; sourceTree = "<group>"; };
 		34F94FE726D2C539006F2D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F94FF526D2C619006F2D6C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		34F94FF726D2C636006F2D6C /* OnBoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 		34F94FF426D2C5BA006F2D6C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				34F94FF526D2C619006F2D6C /* Card.swift */,
+				34F94FF726D2C636006F2D6C /* OnBoardingPage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -285,6 +291,8 @@
 				34F94FC426D2C536006F2D6C /* AppDelegate.swift in Sources */,
 				34F94FC626D2C536006F2D6C /* SceneDelegate.swift in Sources */,
 				34F94FC826D2C536006F2D6C /* ContentView.swift in Sources */,
+				34F94FF826D2C636006F2D6C /* OnBoardingPage.swift in Sources */,
+				34F94FF626D2C619006F2D6C /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
