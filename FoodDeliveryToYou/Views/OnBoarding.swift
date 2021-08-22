@@ -6,10 +6,21 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct OnBoarding: View {
+  
+    @State var showSheetView = false
+    
+    init() {
+        UIPageControl.appearance()
+            .currentPageIndicatorTintColor = .red
+        UIPageControl.appearance().pageIndicatorTintColor =
+            UIColor.black.withAlphaComponent(0.2)
+    }
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
     }
 }
 
