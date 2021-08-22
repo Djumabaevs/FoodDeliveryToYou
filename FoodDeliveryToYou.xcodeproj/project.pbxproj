@@ -99,6 +99,8 @@
 		34F94FC226D2C536006F2D6C /* FoodDeliveryToYou */ = {
 			isa = PBXGroup;
 			children = (
+				34F94FF426D2C5BA006F2D6C /* Views */,
+				34F94FF326D2C5B1006F2D6C /* Models */,
 				34F94FC326D2C536006F2D6C /* AppDelegate.swift */,
 				34F94FC526D2C536006F2D6C /* SceneDelegate.swift */,
 				34F94FC726D2C536006F2D6C /* ContentView.swift */,
@@ -134,6 +136,20 @@
 				34F94FE726D2C539006F2D6C /* Info.plist */,
 			);
 			path = FoodDeliveryToYouUITests;
+			sourceTree = "<group>";
+		};
+		34F94FF326D2C5B1006F2D6C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34F94FF426D2C5BA006F2D6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
