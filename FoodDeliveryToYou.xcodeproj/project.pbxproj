@@ -18,6 +18,7 @@
 		34F94FF626D2C619006F2D6C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FF526D2C619006F2D6C /* Card.swift */; };
 		34F94FF826D2C636006F2D6C /* OnBoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FF726D2C636006F2D6C /* OnBoardingPage.swift */; };
 		34F94FFA26D2C97A006F2D6C /* FoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FF926D2C97A006F2D6C /* FoodApp.swift */; };
+		34F94FFC26D2CAB1006F2D6C /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FFB26D2CAB1006F2D6C /* OnBoarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		34F94FF526D2C619006F2D6C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		34F94FF726D2C636006F2D6C /* OnBoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPage.swift; sourceTree = "<group>"; };
 		34F94FF926D2C97A006F2D6C /* FoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApp.swift; sourceTree = "<group>"; };
+		34F94FFB26D2CAB1006F2D6C /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +112,11 @@
 				34F94FC326D2C536006F2D6C /* AppDelegate.swift */,
 				34F94FC526D2C536006F2D6C /* SceneDelegate.swift */,
 				34F94FC726D2C536006F2D6C /* ContentView.swift */,
+				34F94FF926D2C97A006F2D6C /* FoodApp.swift */,
 				34F94FC926D2C539006F2D6C /* Assets.xcassets */,
 				34F94FCE26D2C539006F2D6C /* LaunchScreen.storyboard */,
 				34F94FD126D2C539006F2D6C /* Info.plist */,
 				34F94FCB26D2C539006F2D6C /* Preview Content */,
-				34F94FF926D2C97A006F2D6C /* FoodApp.swift */,
 			);
 			path = FoodDeliveryToYou;
 			sourceTree = "<group>";
@@ -148,6 +150,8 @@
 		34F94FF326D2C5B1006F2D6C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				34F94FF526D2C619006F2D6C /* Card.swift */,
+				34F94FF726D2C636006F2D6C /* OnBoardingPage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -155,8 +159,7 @@
 		34F94FF426D2C5BA006F2D6C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				34F94FF526D2C619006F2D6C /* Card.swift */,
-				34F94FF726D2C636006F2D6C /* OnBoardingPage.swift */,
+				34F94FFB26D2CAB1006F2D6C /* OnBoarding.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				34F94FC826D2C536006F2D6C /* ContentView.swift in Sources */,
 				34F94FF826D2C636006F2D6C /* OnBoardingPage.swift in Sources */,
 				34F94FF626D2C619006F2D6C /* Card.swift in Sources */,
+				34F94FFC26D2CAB1006F2D6C /* OnBoarding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
