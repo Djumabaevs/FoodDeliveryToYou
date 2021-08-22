@@ -20,7 +20,11 @@ struct OnBoarding: View {
     }
     
     var body: some View {
-        
+        NavigationView {
+            pages()
+        }.sheet(isPresented: $showSheetView) {
+            Location()
+        }.animation(.none)
     }
 }
 
