@@ -33,3 +33,12 @@ struct OnBoarding_Previews: PreviewProvider {
         OnBoarding()
     }
 }
+
+struct pages: View {
+    var body: some View {
+        VStack {
+            
+            
+        }
+    }
+}

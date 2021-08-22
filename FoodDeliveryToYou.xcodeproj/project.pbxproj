@@ -19,6 +19,7 @@
 		34F94FF826D2C636006F2D6C /* OnBoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FF726D2C636006F2D6C /* OnBoardingPage.swift */; };
 		34F94FFA26D2C97A006F2D6C /* FoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FF926D2C97A006F2D6C /* FoodApp.swift */; };
 		34F94FFC26D2CAB1006F2D6C /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FFB26D2CAB1006F2D6C /* OnBoarding.swift */; };
+		34F94FFE26D2CF46006F2D6C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FFD26D2CF46006F2D6C /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		34F94FF726D2C636006F2D6C /* OnBoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPage.swift; sourceTree = "<group>"; };
 		34F94FF926D2C97A006F2D6C /* FoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApp.swift; sourceTree = "<group>"; };
 		34F94FFB26D2CAB1006F2D6C /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		34F94FFD26D2CF46006F2D6C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				34F94FFB26D2CAB1006F2D6C /* OnBoarding.swift */,
+				34F94FFD26D2CF46006F2D6C /* Location.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			files = (
 				34F94FC426D2C536006F2D6C /* AppDelegate.swift in Sources */,
 				34F94FFA26D2C97A006F2D6C /* FoodApp.swift in Sources */,
+				34F94FFE26D2CF46006F2D6C /* Location.swift in Sources */,
 				34F94FC626D2C536006F2D6C /* SceneDelegate.swift in Sources */,
 				34F94FC826D2C536006F2D6C /* ContentView.swift in Sources */,
 				34F94FF826D2C636006F2D6C /* OnBoardingPage.swift in Sources */,
