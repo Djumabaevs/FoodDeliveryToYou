@@ -17,6 +17,7 @@
 		34F94FE626D2C539006F2D6C /* FoodDeliveryToYouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FE526D2C539006F2D6C /* FoodDeliveryToYouUITests.swift */; };
 		34F94FF626D2C619006F2D6C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FF526D2C619006F2D6C /* Card.swift */; };
 		34F94FF826D2C636006F2D6C /* OnBoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FF726D2C636006F2D6C /* OnBoardingPage.swift */; };
+		34F94FFA26D2C97A006F2D6C /* FoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F94FF926D2C97A006F2D6C /* FoodApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		34F94FE726D2C539006F2D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34F94FF526D2C619006F2D6C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		34F94FF726D2C636006F2D6C /* OnBoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPage.swift; sourceTree = "<group>"; };
+		34F94FF926D2C97A006F2D6C /* FoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				34F94FCE26D2C539006F2D6C /* LaunchScreen.storyboard */,
 				34F94FD126D2C539006F2D6C /* Info.plist */,
 				34F94FCB26D2C539006F2D6C /* Preview Content */,
+				34F94FF926D2C97A006F2D6C /* FoodApp.swift */,
 			);
 			path = FoodDeliveryToYou;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34F94FC426D2C536006F2D6C /* AppDelegate.swift in Sources */,
+				34F94FFA26D2C97A006F2D6C /* FoodApp.swift in Sources */,
 				34F94FC626D2C536006F2D6C /* SceneDelegate.swift in Sources */,
 				34F94FC826D2C536006F2D6C /* ContentView.swift in Sources */,
 				34F94FF826D2C636006F2D6C /* OnBoardingPage.swift in Sources */,
