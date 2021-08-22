@@ -7,25 +7,15 @@
 
 import Foundation
 
-struct Card: Identifiable {
-    
-    var id: Int
-    var image: String
-    var title: String
-    var descrip: String
-    var stars: Int
-    var price = "$25.00"
-    var expand: Bool
+struct Page : Identifiable {
+    var id : Int
+    var image : String
+    var title : String
+    var descrip : String
 }
-    
-    var TrendingCard = [
-        Card(id: 0, image: "maxresdefault1", title: "Crispy Chicken Sandwich", descrip: "KoreanBBQ",stars: 5, expand: false),
-        Card(id: 1, image: "maxresdefault2", title: "Shrimp Fries", descrip: "Hot Sauce",stars: 3, expand: false),
-        Card(id: 2, image: "maxresdefault3", title: "Chinese Salad", descrip: "Best Seller",stars: 4, expand: false),
-        Card(id: 3, image: "maxresdefault1", title: "Crispy Chicken Sandwich", descrip: "KoreanBBQ",stars: 5, expand: false),
-        Card(id: 4, image: "maxresdefault2", title: "Shrimp Fries", descrip: "Hot Sauce",stars: 3, expand: false),
-        Card(id: 5, image: "maxresdefault3", title: "Pizza pineapple", descrip: "dont buy iy",stars: 1, expand: false),
-    ]
-    
-    var FoodTypes = ["Pizza","Drinks","Tacos","Burger","Fries","Top"]
 
+var Data = [
+    Page(id: 0, image: "discover", title: "Discover places near you", descrip: "We make it simple to find the food you crave. Enter your  home addresse and let us do the rest."),
+    Page(id: 1, image: "choose", title: "Choose a Tasty Dish", descrip: "We make it simple to find the food you crave. Enter your  home addresse and let us do the rest."),
+    Page(id: 2, image: "pick", title: "Your Food is on the way", descrip: "We make it simple to find the food you crave. Enter your  home addresse and let us do the rest.")
+]
