@@ -38,6 +38,17 @@ struct pages: View {
     var body: some View {
         VStack {
             
+            TabView {
+                ForEach(Data) { page in
+                    GeometryReader { g in
+                        VStack {
+                            Image(page.image)
+                                .resizable()
+                                .scaledToFit()
+                        }
+                    }
+                }
+            }
             
         }
     }
