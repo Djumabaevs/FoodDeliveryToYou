@@ -45,11 +45,19 @@ struct pages: View {
                             Image(page.image)
                                 .resizable()
                                 .scaledToFit()
-                        }
+                            Text(page.title)
+                                .font(.title).bold()
+                                .padding(.all, 20)
+                            Text(page.descrip)
+                                .multilineTextAlignment(.center)
+                                .padding(.all, 10)
+                        }.opacity(Double(g.frame(in: .global).minX) / 200 + 1)
                     }
                 }
-            }
+            }.edgesIgnoringSafeArea(.top)
+            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
             
+            NavigationLink
         }
     }
 }
