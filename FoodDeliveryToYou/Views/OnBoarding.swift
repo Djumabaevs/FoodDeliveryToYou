@@ -66,7 +66,7 @@ struct pages: View {
                         .font(.headline)
                         .frame(width: 200, height: 40, alignment: .center)
                         .foregroundColor(.white)
-                        .background(Color(.red))
+                        .background(Color.red)
                         .cornerRadius(10)
                 })
             Spacer()
@@ -83,3 +83,5 @@ struct pages: View {
         .navigationBarBackButtonHidden(true)
     }
 }
+
+
