@@ -57,7 +57,20 @@ struct pages: View {
             }.edgesIgnoringSafeArea(.top)
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
             
-            NavigationLink
+            NavigationLink(
+                destination: Location()
+                    .navigationBarBackButtonHidden(true)
+                    .navigationBarHidden(true),
+                label: {
+                    Text("Start")
+                        .font(.headline)
+                        .frame(width: 200, height: 40, alignment: .center)
+                        .foregroundColor(.white)
+                        .background(Color(.red))
+                        .cornerRadius(10)
+                })
+            Spacer()
         }
+        
     }
 }
