@@ -71,6 +71,15 @@ struct pages: View {
                 })
             Spacer()
         }
-        
+        .navigationBarItems(trailing:
+                                NavigationLink(
+                                    destination: Location().navigationBarBackButtonHidden(true).navigationBarHidden(true),
+                                    label: {
+                                        Image(systemName: "arrow.right")
+                                            .font(Font.system(.title3))
+                                            .foregroundColor(Color(#colorLiteral(red: 0.9580881, green: 0.10593573, blue: 0.3403331637, alpha: 1)))
+                                    })
+        )
+        .navigationBarBackButtonHidden(true)
     }
 }
